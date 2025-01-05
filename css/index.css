@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(36, 3, 3);
+ font-size: xx-large;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: rgb(110, 71, 71);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: rgb(100, 83, 83);
+}
+.navbar li{
+  float: left;
+}
+.paragraf{
+ float: right;
+  color: black;
+  position:absolute;
+top: 20%;
+left: 35%;
+padding: 200px;
+ }
+ .img{
+  background-color: rgb(162, 149, 149);
+ }
+
+

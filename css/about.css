@@ -1,0 +1,125 @@
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(36, 3, 3);
+ font-size:xx-large;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: rgb(110, 71, 71);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: rgb(100, 83, 83);
+}
+.navbar li{
+  float: left;
+}
+.paragraf{
+ float: right;
+  color: black;
+  position:absolute;
+top: 20%;
+left: 35%;
+padding: 200px;
+ }
+ .img{
+  background-color: rgb(162, 149, 149);
+ }
+ *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ }
+ body{
+  background-color: #f2f2f2;
+ }
+ .heading{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+ }
+ .heading h1{
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 25px;
+  position: relative;
+ }
+ .heading h1::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color: #3a1717;
+ }
+ .heading p{
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 35px;
+ }
+ .container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+ }
+ .about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+ .about-image{
+  flex: 1;
+  margin-right: 40px;
+  overflow: hidden;
+ }
+ .about-image img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
+ }
+ .about-image:hover img{
+  transform: scale(1.2);
+ }
+ .about-content{
+  flex: 1;
+ }
+ th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #333;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar{
+  background-color: rgb(110, 71, 71) ;
+}
+.container-fluid{
+  background-color: rgb(110, 71, 71);
+}
